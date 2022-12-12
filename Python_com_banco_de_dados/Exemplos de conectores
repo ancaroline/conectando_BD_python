@@ -1,0 +1,15 @@
+pycopg2
+mysqlclient , pyMySql, mysql-connector-Python
+sqlite3 - adaptador padrão do python para SQLITE
+
+SQLITE
+Não prevê um acesso direto pela rede
+Não tem suporte à autenticação
+Devemos implementar nosso próprio controle de acesso para a nossa aplicação
+
+Classes e métodos disponibilizados pelos conectores
+1. connect: cria uma conexão com o BD. Retorna um objeto do tipo connection.
+2. connection: utilizada para gerenciar todas as operações do BD.
+    Principais métodos: commit, rollback, cursor, close.
+3. cursor: utilizada para enviar os comandos ao BD
+    Principais métodos: execute, fetchone, fetchall

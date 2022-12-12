@@ -1,0 +1,2 @@
+Conteúdo wrilines1
+Conteúdo writelines2
